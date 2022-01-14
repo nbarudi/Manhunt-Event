@@ -2,3 +2,8 @@ name: Manhunt
 version: '${project.version}'
 main: ca.bungo.manhunt.Manhunt
 api-version: 1.18
+commands:
+  test:
+    description: Testing command for experimentational usage
+    permission: bungo.dev
+    usage: /test
